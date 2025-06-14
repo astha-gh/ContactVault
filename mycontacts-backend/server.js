@@ -3,12 +3,10 @@ const dotenv = require('dotenv').config();
 const cors = require("cors");
 const errorHandler = require('./middleware/errorHandler');
 const Connectdb = require('./config/dbConnection');
-
 const app = express();
 const port = process.env.PORT || 8080;
 
 Connectdb();
-
 
 const corsOptions = {
     origin: [
