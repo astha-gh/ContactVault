@@ -17,7 +17,12 @@ const contactSchema = mongoose.Schema({
     phone: {
         type: String,
         required: [true, "Please add the phone number"],
+    },
+    photo: {
+        type: String,
+        default: 'https://res.cloudinary.com/dislhmbst/image/upload/v1749119635/Screenshot_2025-06-05_160345_xy7pgi.png'
     }
+      
 }, {
     timestamps: true,
 });
