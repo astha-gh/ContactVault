@@ -46,14 +46,12 @@ const Dashboard = () => {
 
         const { name, email, phone } = newContact;
 
-        // Basic validation
         if (!name || !email || !phone) {
             setMessage("All fields are required!");
             setIsLoading(false);
             return;
         }
 
-        // Email format validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
             setMessage("Please enter a valid email address.");
@@ -61,15 +59,14 @@ const Dashboard = () => {
             return;
         }
 
-        // Phone number must be 10 digits
-        const cleanPhone = phone.replace(/\D/g, ''); // remove non-digits
+        const cleanPhone = phone.replace(/\D/g, ''); 
         if (cleanPhone.length !== 10) {
             setMessage("Phone number must be exactly 10 digits.");
             setIsLoading(false);
             return;
         }
 
-        // Optional: upload photo if selected
+        
         let photoUrl = DEFAULT_PHOTO;
         if (image) {
             const data = new FormData();
@@ -92,7 +89,7 @@ const Dashboard = () => {
             }
         }
 
-        // Add contact with photo
+       
         try {
             const contactResponse = await fetch(`${process.env.REACT_APP_BASE_URL}api/contact`, {
                 method: "POST",
@@ -138,8 +135,6 @@ const Dashboard = () => {
 
         try {
             let updatedPhoto = contacts.find(c => c._id === id)?.photo || DEFAULT_PHOTO;
-
-            // If a new image is selected during editing, upload it
             if (image) {
                 const data = new FormData();
                 data.append("file", image);
