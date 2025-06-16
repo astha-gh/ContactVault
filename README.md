@@ -82,7 +82,7 @@ npm run dev
 
 ### 💻 Frontend Setup
 ```bash
-cd ../mycontacts-frontend
+cd mycontacts-frontend
 npm install
 npm start
 ```
