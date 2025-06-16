@@ -58,7 +58,6 @@
 
 ## ⚙️ Installation
 
-```bash
 # Clone the repository
 git clone https://github.com/astha-gh/ContactVault
 cd ContactVault
