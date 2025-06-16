@@ -87,7 +87,7 @@ You can upload contact photos, update information, or delete entries.
 
 ## 📡 API Reference
 
-# 📁 Contact Routes /api/contact
+### 📁 Contact Routes /api/contact
 
 | Method | Route  | Description          |
 | ------ | ------ | -------------------- |
@@ -98,7 +98,7 @@ You can upload contact photos, update information, or delete entries.
 | DELETE | `/:id` | Delete contact by ID |
 
 
-# 👤 User Routes /api/users
+### 👤 User Routes /api/users
 
 | Method | Route       | Description             |
 | ------ | ----------- | ----------------------- |
@@ -109,7 +109,7 @@ You can upload contact photos, update information, or delete entries.
 
 ## 🗂️ Folder Structure
 
-# 📦 Backend – mycontacts-backend
+### 📦 Backend – mycontacts-backend
 
 ```bash
 mycontacts-backend/
@@ -134,7 +134,7 @@ mycontacts-backend/
 └── server.js
 ```
 
-# 🌐 Frontend – mycontacts-frontend
+### 🌐 Frontend – mycontacts-frontend
 
 ```bash
 mycontacts-frontend/
@@ -156,6 +156,6 @@ mycontacts-frontend/
 └── README.md
 ```
 
-# Astha Devadiga
+## Astha Devadiga
 🔗 [GitHub Profile](https://github.com/astha-gh)  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/astha-devadiga-327a68286/)
