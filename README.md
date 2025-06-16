@@ -62,8 +62,8 @@
 # Clone the repository
 git clone https://github.com/astha-gh/ContactVault
 cd ContactVault
+```exit
 
-```bash
 # Backend Setup
 cd mycontacts-backend
 npm install
