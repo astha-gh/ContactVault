@@ -63,28 +63,28 @@
 git clone https://github.com/astha-gh/ContactVault
 cd ContactVault
 
-#Backend Setup
+# Backend Setup
 cd mycontacts-backend
 npm install
 npm run dev
 
-#Frontend Setup
+# Frontend Setup
 cd mycontacts-frontend
 npm install
 npm start
 
 ---
 
-##🧪 Usage
+## 🧪 Usage
 
 Register or log in to start managing your contact list.
 You can upload contact photos, update information, or delete entries.
 
 ---
 
-##📡 API Reference
+## 📡 API Reference
 
-#📁 Contact Routes /api/contact
+# 📁 Contact Routes /api/contact
 
 | Method | Route  | Description          |
 | ------ | ------ | -------------------- |
@@ -95,7 +95,7 @@ You can upload contact photos, update information, or delete entries.
 | DELETE | `/:id` | Delete contact by ID |
 
 
-#👤 User Routes /api/users
+# 👤 User Routes /api/users
 
 | Method | Route       | Description             |
 | ------ | ----------- | ----------------------- |
@@ -104,9 +104,9 @@ You can upload contact photos, update information, or delete entries.
 | GET    | `/current`  | Get current user info   |
 
 
-##🗂️ Folder Structure
+## 🗂️ Folder Structure
 
-#📦 Backend – mycontacts-backend
+# 📦 Backend – mycontacts-backend
 
 mycontacts-backend/
 ├── config/
@@ -129,7 +129,7 @@ mycontacts-backend/
 ├── package.json
 └── server.js
 
-#🌐 Frontend – mycontacts-frontend
+# 🌐 Frontend – mycontacts-frontend
 
 mycontacts-frontend/
 ├── public/
@@ -149,6 +149,6 @@ mycontacts-frontend/
 ├── package.json
 └── README.md
 
-#Astha Devadiga
+# Astha Devadiga
 🔗 [GitHub Profile](https://github.com/astha-gh)  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/astha-devadiga-327a68286/)
