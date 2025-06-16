@@ -58,19 +58,25 @@
 
 ## ⚙️ Installation
 
-# Clone the project
-git clone https://github.com/astha-gh/ContactVault
+### Clone the project
+```bash
+git clone https://github.com/astha-gh/ContactVault.git
 cd ContactVault
+```
 
-# 🛠️ Backend Setup
+### 🛠️ Backend Setup
+```bash
 cd mycontacts-backend
 npm install
 npm run dev
+```
 
-# 💻 Frontend Setup
+### 💻 Frontend Setup
+```bash
 cd ../mycontacts-frontend
 npm install
 npm start
+```
 
 ## 🧪 Usage
 
@@ -105,6 +111,7 @@ You can upload contact photos, update information, or delete entries.
 
 # 📦 Backend – mycontacts-backend
 
+```bash
 mycontacts-backend/
 ├── config/
 │   └── dbConnection.js
@@ -125,9 +132,11 @@ mycontacts-backend/
 ├── constants.js
 ├── package.json
 └── server.js
+```
 
 # 🌐 Frontend – mycontacts-frontend
 
+```bash
 mycontacts-frontend/
 ├── public/
 ├── src/
@@ -145,6 +154,7 @@ mycontacts-frontend/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 # Astha Devadiga
 🔗 [GitHub Profile](https://github.com/astha-gh)  
