@@ -15,8 +15,7 @@
 
 ## 🚀 Live Demo
 
-- 🌐 Frontend (Netlify): [https://contactvault202.netlify.app](https://contactvault202.netlify.app)
-- 🔧 Backend (Railway): [https://my-contacts-backend-production.up.railway.app](https://my-contacts-backend-production.up.railway.app)
+[https://contactvault202.netlify.app](https://contactvault202.netlify.app)
 
 ---
 
