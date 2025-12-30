@@ -213,7 +213,7 @@ const Dashboard = () => {
                 body: data,
             });
             const fileData = await res.json();
-            return fileData.secure_url;  // Use secure_url instead of url if available
+            return fileData.secure_url;  
         } catch (err) {
             console.error("Cloudinary upload error:", err);
             return DEFAULT_PHOTO;
